@@ -1,0 +1,33 @@
+.actions {
+  &__item {
+    margin-top: 4px;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+
+    &.active {
+      background-color: $color-link;
+    }
+
+    &--search {
+      background-image: url('assets/svg/icon-search.svg');
+    }
+
+    &--bed {
+      background-image: url('assets/svg/icon-bed.svg');
+    }
+
+    &--cart {
+      background-image: url('assets/svg/icon-cart.svg');
+      background-size: 16px 16px;
+    }
+  }
+}

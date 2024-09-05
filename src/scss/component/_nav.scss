@@ -1,0 +1,10 @@
+.nav {
+  &__burger {
+    margin-top: 7px;
+
+    background: no-repeat center url(../../../assets/svg/hamburger-dots.svg);
+
+    width: 20px;
+    height: 26px;
+  }
+}
